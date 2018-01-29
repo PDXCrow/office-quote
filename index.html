@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quote Gen</title>
+  <title>The Office Quote Generator</title>
+<!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
 </head>
 <body>
-  <h1>Simple Quote Generator</h1>
+  <div class="header">
+    <img id="logo" src="images/office-logo.png" alt="office logo">
+    <h2>Quote Generator</h2>
+  </div>
+  <div class="main">
+    <img id="cast" src="images/office_header.jpg" alt="cast photo">
+  </div>
+  <br>
   <div id="quoteDisplay">
     "Dwight, you ignorant slut! <br>- Michael Scott"
+    <button onclick="newQuote()">New Quote</button>
   </div>
-  <button onclick="newQuote()">New Quote</button>
+
 
   <script src="javascript.js"></script>
 </body>

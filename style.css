@@ -1,0 +1,44 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+.header {
+  height: 148px;
+}
+
+#logo {
+  width: 200px;
+  position:relative;
+  float:left;
+  background-color: yellow;
+  margin-right: 20px;
+
+}
+
+h2 {
+  font-size: 1.6em;
+  position:relative;
+  top: 20%;
+}
+
+.main {
+  clear: both;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#quoteDisplay {
+  clear: both;
+  background-color: green;
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#cast {
+  width: 75%;
+}
