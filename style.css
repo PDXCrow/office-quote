@@ -5,16 +5,18 @@
 }
 
 body {
-    background-color: #6e5b82;
+    background-color: #62576d;
 }
 
 .header {
   height: 86px;
   background-color: olive;
+  border-width: thin;
+  border: 4px;
 }
 
 #logo {
-  width: 200px;
+  height: 84px;
   position:relative;
   float:left;
   background-color: yellow;
@@ -24,15 +26,23 @@ body {
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.8em;
+  font-weight: normal;
+  letter-spacing: .3em;
   position:relative;
-  top: 30%;
+  top: 32%;
+
+}
+
+button {
+  width: 110px;
+  font-weight: bold;
 }
 
 .main {
   clear: both;
   width: 800px;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
 }
 
