@@ -1,9 +1,16 @@
 * {
   font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #6e5b82;
 }
 
 .header {
-  height: 148px;
+  height: 86px;
+  background-color: olive;
 }
 
 #logo {
@@ -12,13 +19,14 @@
   float:left;
   background-color: yellow;
   margin-right: 20px;
+  border-radius: 10px;
 
 }
 
 h2 {
   font-size: 1.6em;
   position:relative;
-  top: 20%;
+  top: 30%;
 }
 
 .main {
@@ -37,6 +45,13 @@ h2 {
   font-size: 1.5em;
 }
 
+.quoteButton {
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+}
+
 #cast {
   width: 75%;
+  border-radius: 20px;
 }
