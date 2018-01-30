@@ -9,6 +9,7 @@ body {
 }
 
 .header {
+  padding: 5px;
   height: 86px;
   background-color: olive;
   border-width: thin;
@@ -59,6 +60,16 @@ button {
   margin: 20px auto;
   width: 200px;
   text-align: center;
+}
+
+.twitter {
+  margin: 20px auto;
+  width: 200px;
+  text-align: center;
+}
+
+#twitterLink {
+  width: 50px;
 }
 
 #cast {
