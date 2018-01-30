@@ -17,15 +17,6 @@ body {
   box-shadow: 5px 5px 10px black;
 }
 
-#logo {
-  height: 84px;
-  position:relative;
-  float:left;
-  background-color: yellow;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-
 h2 {
   font-size: 1.8em;
   font-weight: normal;
@@ -45,11 +36,13 @@ button {
 
 button:focus {outline:0;}
 
-.main {
-  clear: both;
-  width: 800px;
-  margin: 20px auto;
-  text-align: center;
+#logo {
+  height: 84px;
+  position:relative;
+  float:left;
+  background-color: yellow;
+  margin-right: 20px;
+  border-radius: 10px;
 }
 
 #quoteBox {
@@ -61,9 +54,7 @@ button:focus {outline:0;}
   padding: 10px;
   text-align: center;
   border-radius: 15px;
-
 }
-
 
 #quoteDisplay {
   clear: both;
@@ -84,6 +75,18 @@ button:focus {outline:0;}
   font-size: 1em;
 }
 
+#cast {
+  width: 75%;
+  border: solid #433c4a 2px;
+  border-radius: 20px;
+}
+
+.main {
+  clear: both;
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
 
 .quoteButton {
   margin: 20px auto;
@@ -100,10 +103,4 @@ button:focus {outline:0;}
 
 .twitterLink {
   width: 50px;
-}
-
-#cast {
-  width: 75%;
-  border: solid #433c4a 2px;
-  border-radius: 20px;
 }

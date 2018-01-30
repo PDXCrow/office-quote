@@ -17,15 +17,14 @@ var quotes = [
 ]
 
 function newQuote() {
-  // Selects random quote and assigns to quoteDisplay HTML element. Same for authorDisplay
+  /*
+  Selects random quote and assigns to quoteDisplay HTML element.
+  Same for authorDisplay. Assigns quote to twitter url to send.
+  */
   var randomNumber = Math.floor(Math.random() * quotes.length);
-  //var tweetQuote = quotes[randomNumber][0].split(' ').join('%20');
   var tweetQuote = "https://twitter.com/intent/tweet?text=" + '"' + quotes[randomNumber][0] + '"' + " - "
   + quotes[randomNumber][1];
   document.getElementById('quoteDisplay').innerHTML = '"' + quotes[randomNumber][0] + '"';
   document.getElementById('authorDisplay').innerHTML = "- " + quotes[randomNumber][1];
   document.getElementById('link').href = tweetQuote;
-  // Build url version of quote to send to twitter
-  //document.getElementById("link").href = "this is a new link";
 }
-//quotes[randomNumber].split(' ').join('%20');
