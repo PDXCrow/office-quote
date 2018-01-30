@@ -56,6 +56,16 @@ button {
   font-size: 1.5em;
 }
 
+#authorDisplay {
+  clear: both;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
 .quoteButton {
   margin: 20px auto;
   width: 200px;
